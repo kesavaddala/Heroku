@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        A-Z
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A-Z</title>
+    <link rel="stylesheet" href="../bootstrap-5.1.1-dist/css/bootstrap.css">
+    <script src="../bootstrap-5.1.1-dist/js/bootstrap.bundle.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        #h1 {
+            color: #ffc107;
+            font-size: 24px;
+
+
+        }
+
+        #nav {
+            background-color: #ffc107;
+        }
+
+        .px-4 {
+            padding-right: 0.5rem !important;
+            padding-left: 0.5rem !important;
+        }
+
+        #flex {
+            height: 280px;
+            cursor: pointer;
+        }
+
+        #fleximage {
+            height: 280px;
+            width: 100%;
+        }
+
+        .nav-link {
+            color: white;
+        }
+
+        #discount {
+            width: 100%;
+            height: 200px;
+        }
+
+        #log {
+            color: white;
+            padding: 0px;
+            float: right;
+            margin-top: 6px;
+        }
+
+        .col:hover {
+            color: blue;
+            cursor: pointer;
+        }
+
+        #spec {
+            text-align: center;
+        }
+
+        #log1 {
+            float: right;
+            padding-top: 5px;
+            margin-right: -75px;
+            cursor: pointer;
+            color: #ffc107;
+        }
+
+        .example {
+            float: right;
+        }
+
+        #search111 {
+            margin: 0;
+            font-family: inherit;
+            font-size: small;
+            line-height: revert;
+            padding-bottom: 0px;
+            padding-top: 5px;
+            padding-right: 5px;
+
+        }
+
+        button:not(:disabled),
+        [type=button]:not(:disabled),
+        [type=reset]:not(:disabled),
+        [type=submit]:not(:disabled):hover {
+            color: blue;
+            cursor: pointer;
+            margin-right: -35px;
+            margin-left: 40px;
+            /* color: #ffc107; */
+
+        }
+
+        #head11 {
+            font-weight: bolder;
+            text-align: center;
+            padding-left: 250px;
+        }
+
+        #link {
+            color: #ffc107;
+            text-decoration: none;
+        }
+
+        .psw {
+            color: red;
+            text-decoration: none;
+        }
+
+        input {
+            text-align: center;
+        }
+
+        #searchbtn {
+            margin-right: 20px;
+            margin-left: 0px;
+            color: #ffc107;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div id="h1" class="container text-center">
+            <b id="head11">A-Z Store</b>
+            <!-- <b>
+                <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search"
+                    aria-describedby="search-addon" style="width: 18%;" />
+                <button type="button" class="btn btn-warning">search</button>
+            </b> -->
+            <a class="btn btn-warning" id="log" href="../uxfactory2/loginpage.html" role="button">Login</a>
+            <a href="../uxfactory2/cart.html"><i style="font-size:24px" id="log1" class="fa">&#xf07a;</i></a>
+            <form id="search111" class="example" action="/action_page.php" style="margin:auto;max-width:300px">
+                <input type="text" placeholder="Search.." name="search2">
+                <button id="searchbtn" type="submit"><i class="fa fa-search"></i></button>
+            </form>
+        </div>
+        <div id="nav">
+            <nav class="nav nav-pills nav-justified">
+                <a class="nav-link" href="../uxfactory2/ecom1.html">Top Offers</a>
+                <a class="nav-link" href="../uxfactory2/ecom2mobiles.html">Mobiles</a>
+                <a class="nav-link" href="../uxfactory2/ecom3fashion.html">Fashion</a>
+                <a class="nav-link" href="../uxfactory2/ecom4electronics.html">Electronics</a>
+                <a class="nav-link" href="../uxfactory2/ecom5.html">Applliances</a>
+            </nav>
+        </div>
+        <form action="action_page.php" method="post">
+            <!-- <div class="imgcontainer">
+              <img src="img_avatar2.png" alt="Avatar" class="avatar">
+            </div> -->
+
+            <div class="container-fluid text-center">
+                <h4 style="color: #ffc107; font-size: 24px;">Login</h4>
+
+                <div id="link">
+                    <label for="uname"><b>Username</b></label>
+                    <input type="text" placeholder="Enter Username" name="uname" required>
+                </div> <br>
+                <div id="link">
+                    <label for="psw"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" required>
+                </div> <br>
+                <div id="link">
+                    <button type="submit" id="link">Login</button>
+                    <button type="button"><a href="../uxfactory2/signup.html" id="link">Signup</a></button><br>
+                    <label>
+                        <input type="checkbox" checked="checked" name="remember"> Remember me
+                    </label>
+                </div>
+                <div id="link">
+                    <button type="button" class="cancelbtn"><a href="../uxfactory2/ecom1.html"
+                            id="link">Cancel</a></button><br>
+                    <span>Forgot <a href="#" class="psw">password?</a></span>
+                </div>
+        </form>
+
+        <footer class="page-footer font-small bg-warning mt-2">
+
+            <div>
+                <div class="container">
+                    <div class="row  d-flex align-items-center">
+                        <div class="col-md-4 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+                            <h6 class="mb-0">Get connected with us on social networks!</h6>
+                        </div>
+                        <div class="col-md-4 col-lg-7 text-center text-md-right">
+                            <a href="#" class="icoRss" title="Rss" id="ssss"><i class="fa fa-rss"></i></a>
+                            <a href="#" class="icoFacebook" title="Facebook" id="ssss"><i
+                                    class="fa fa-facebook"></i></a>
+                            <a href="#" class="icoTwitter" title="Twitter" id="ssss"><i class="fa fa-twitter"></i></a>
+                            <a href="#" class="icoGoogle" title="Google +" id="ssss"><i
+                                    class="fa fa-google-plus"></i></a>
+                            <a href="#" class="icoLinkedin" title="Linkedin" id="ssss"><i
+                                    class="fa fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container text-center text-md-left mt-3">
+                <div class="row mt-3">
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase font-weight-bold">Company name</h6>
+                        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                        <p>Here you can buy products</p>
+
+                    </div>
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <h6 class="text-uppercase font-weight-bold">Products</h6>
+                        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                        <p>
+                            <a href="#!" id="ssss">Mobiles</a>
+                        </p>
+                        <p>
+                            <a href="#!" id="ssss">Fashion</a>
+                        </p>
+                        <p>
+                            <a href="#!" id="ssss">Applliances</a>
+                        </p>
+                        <p>
+                            <a href="#!" id="ssss">Electronics</a>
+                        </p>
+
+                    </div>
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <h6 class="text-uppercase font-weight-bold">Useful links</h6>
+                        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                        <p>
+                            <a href="#!" id="ssss">Your Account</a>
+                        </p>
+                        <p>
+                            <a href="#!" id="ssss">Become an Affiliate</a>
+                        </p>
+                        <p>
+                            <a href="#!" id="ssss">Shipping Rates</a>
+                        </p>
+                        <p>
+                            <a href="#!" id="ssss">Help</a>
+                        </p>
+
+                    </div>
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                        <h6 class="text-uppercase font-weight-bold">Contact</h6>
+                        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                        <p>
+                            Hyderabad
+                        </p>
+                        <p>
+                            atoz@gmail.com
+                        </p>
+                        <p>
+                            11111111
+                        </p>
+                        <p>
+                            11111111
+                        </p>
+
+                    </div>
+
+                </div>
+            </div>
+            <footer class="my-2 pt-1 text-muted text-center text-small">
+                <p class="mb-1">&copy; 2020-2021 Company Name</p>
+                <ul class="list-inline">
+                    <li class="list-inline-item"><a href="#" id="ssss">Privacy</a></li>
+                    <li class="list-inline-item"><a href="#" id="ssss">Terms</a></li>
+                    <li class="list-inline-item"><a href="#" id="ssss">Support</a></li>
+                </ul>
+            </footer>
+        </footer>
+    </div>
+
+</body>
+
+</html>
