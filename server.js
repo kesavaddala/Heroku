@@ -33,5 +33,46 @@ app.get("/getbrands", async (req, res) => {
     console.log(err.message);
   }
 });
+app.get("/", async (req, res) => {
+  try {
+    const html = `<!DOCTYPE html>
+    <html>
+    
+    <head>
+        <title>Home</title>
+    </head>
+    
+    <body>
+        <h1>Welcome To Home Page</h1>
+    </body>
+    
+    </html>`;
+
+    return res.send(html);
+  } catch (err) {
+    console.log(err.message);
+  }
+});
+
+app.get("/abc", async (req, res) => {
+  try {
+    const html = `<!DOCTYPE html>
+    <html>
+    
+    <head>
+        <title>Home</title>
+    </head>
+    
+    <body>
+        <h1>Welcome To Home Page</h1>
+        
+    </body>
+    
+    </html>`;
+    return res.send(html);
+  } catch (err) {
+    console.log(err.message);
+  }
+});
 const port = process.env.PORT || 4000;
 app.listen(port, () => console.log("server running..."));
